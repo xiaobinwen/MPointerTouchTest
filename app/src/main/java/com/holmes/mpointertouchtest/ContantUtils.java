@@ -8,7 +8,7 @@ import android.graphics.Color;
 
 public class ContantUtils {
 
-	public static final boolean DEBUG = true;
+	public static final boolean DEBUG = false;
 
 	public static final boolean MOVED = true;
 	public static final boolean STATIC = true;
