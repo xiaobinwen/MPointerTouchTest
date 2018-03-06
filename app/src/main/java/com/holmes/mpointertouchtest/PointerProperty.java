@@ -1,5 +1,4 @@
-package com.example.holmes.mpointertouchtest;
-
+package com.holmes.mpointertouchtest;
 
 import android.graphics.PointF;
 
@@ -14,6 +13,7 @@ public class PointerProperty {
 	private int mColor;
 	private String mLastTime;
 	private int mLastEvent;
+	private boolean mMoveStatus = false;
 
 	public PointerProperty(PointF mPointF, int mID, int mColor) {
 		this.mPointF = mPointF;
@@ -59,5 +59,13 @@ public class PointerProperty {
 
 	public void setmLastEvent(int mLastEvent) {
 		this.mLastEvent = mLastEvent;
+	}
+
+	public boolean ismMoveStatus() {
+		return mMoveStatus;
+	}
+
+	public void setmMoveStatus(boolean mMoveStatus) {
+		this.mMoveStatus = mMoveStatus;
 	}
 }

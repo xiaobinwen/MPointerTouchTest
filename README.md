@@ -1,2 +1,0 @@
-# MPointerTouchTest
-MultiPointer Touch Test

@@ -1,4 +1,4 @@
-package com.example.holmes.mpointertouchtest;
+package com.holmes.mpointertouchtest;
 
 import android.content.Context;
 import android.media.AudioManager;
